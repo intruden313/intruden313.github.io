@@ -3,182 +3,177 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- PERSONALIZE: Update your name and description here and throughout the page. -->
-  <title>Your Name — GIS Portfolio</title>
-  <meta name="description" content="A GIS and technology portfolio by Your Name, focused on aviation, utilities, indoor mapping, programming, automation, and infrastructure.">
-  <meta name="theme-color" content="#f2f5f7">
+  <title>Matt Pistritto — Portfolio</title>
+  <meta name="description" content="Web maps published on ArcGIS Online and Power Automate workflows on Microsoft 365, by Matt Pistritto.">
+  <meta name="theme-color" content="#f5f7fa">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;550;600;650&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="brand" href="./" aria-label="Your Name, home">
-      <svg class="brand-mark" viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="M3 12V3h9m12 0h9v9M3 24v9h9m12 0h9v-9M18 7v22M7 18h22" stroke="currentColor" stroke-width="1.5"/><path d="m18 10 7 13-7-3-7 3Z" fill="currentColor"/></svg>
-      <span>Your Name<span class="brand-subtitle">GIS &amp; technology</span></span>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Matt Pistritto, home">
+      <svg viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="M3 12V3h9m12 0h9v9M3 24v9h9m12 0h9v-9M18 7v22M7 18h22" stroke="currentColor" stroke-width="1.5"/><path d="m18 10 7 13-7-3-7 3Z" fill="currentColor"/></svg>
+      Matt Pistritto
     </a>
     <nav aria-label="Main navigation">
-      <a href="#work">Work</a>
-      <a href="#systems">Code &amp; infrastructure</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <a class="nav-resume" href="resume.html">Résumé <span aria-hidden="true">↗</span></a>
+      <a href="#maps">Web maps</a><a href="#automation">Automation</a><a href="#about">About</a><a href="#contact">Contact</a>
+      <a class="nav-resume" href="resume.html">Résumé</a>
     </nav>
   </header>
 
   <main id="main">
     <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="tiny-cross" aria-hidden="true">+</span> Aviation / Facilities / Technology</p>
-        <h1 id="hero-title">Mapping what<br>keeps things<br><span>moving.</span></h1>
-        <p class="hero-description">From airfields to indoor spaces. A portfolio for mapping connected assets, building useful tools, and bringing systems together.</p>
-        <a class="button" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
-        <p class="hero-footnote">AIRFIELD → FACILITY → SYSTEM</p>
-      </div>
-      <figure class="hero-map">
-        <img src="assets/airfield.svg" width="900" height="720" alt="Conceptual airport site plan showing a runway, taxiway, terminal floorplan, and utility connections. Illustrative only; not for navigation.">
-        <div class="map-label"><span class="map-dot" aria-hidden="true"></span> Airside. Landside. Connected.</div>
-        <figcaption><span>DRAWING 01 / SITE OVERVIEW</span><span>CONCEPT / NOT FOR NAVIGATION</span></figcaption>
-      </figure>
-    </section>
-
-    <div class="discipline-strip"><div class="wrap"><span>Aviation GIS</span><span aria-hidden="true">+</span><span>Utilities &amp; indoor mapping</span><span aria-hidden="true">+</span><span>Code &amp; infrastructure</span></div></div>
-
-    <section class="work wrap section" id="work" aria-labelledby="work-title">
-      <div class="section-heading"><div><p class="eyebrow">01 / Geospatial work</p><h2 id="work-title">Places. Assets. Connections.</h2></div><p>The spaces we move through.<br>The networks behind them.</p></div>
-      <p class="template-note"><strong>A portfolio in the making.</strong> The projects below are examples, ready to replace with your own work. All preview maps are illustrations.</p>
-
-      <!-- PROJECT 1: Duplicate an entire article to add a project. See README.md for embedding. -->
-      <article class="project" id="project-web-map">
-        <div class="project-preview"><img src="assets/airfield.svg" width="900" height="720" alt="Illustrative airport asset plan with a runway, parallel taxiway, apron, and terminal."><span class="preview-label">AV.01 / AVIATION GIS</span></div>
-        <div class="project-body">
-          <div class="project-meta"><span>ArcGIS Online · Instant Apps</span><span>Sample project</span></div>
-          <h3>The airfield, in one view</h3>
-          <p>A place to showcase runway, taxiway, pavement, and airport asset mapping through an interactive ArcGIS application.</p>
-          <ul class="tags" aria-label="Example methods"><li>Airport assets</li><li>Web mapping</li><li>Data management</li></ul>
-          <details class="project-details">
-            <summary>Explore project <span class="disclosure-icon" aria-hidden="true">+</span></summary>
-            <div class="project-expanded">
-              <p class="eyebrow">Project brief</p><h4>Connecting airport assets to their location.</h4>
-              <p>Describe your airport mapping project, your role, and the assets involved. Explain how you organized the data, checked its quality, and made it useful to the intended audience. Add your findings and limitations.</p>
-              <div class="embed-placeholder"><span class="embed-symbol" aria-hidden="true">⌖</span><strong>Your interactive map goes here</strong><p>Replace this panel with your ArcGIS embed. Instructions are in the README.</p></div>
-              <!-- EMBED 1: Delete the placeholder div above, replace PASTE_EMBED_URL_HERE below
-                   with the src URL from ArcGIS's iframe embed code, then uncomment both elements.
-              <iframe class="arcgis-embed" src="PASTE_EMBED_URL_HERE" title="Interactive airport asset map" loading="lazy" allowfullscreen></iframe>
-              <a class="text-link" href="PASTE_PUBLIC_APP_URL_HERE" target="_blank" rel="noopener noreferrer">Open full-screen map <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
-              -->
-              <dl class="project-facts"><div><dt>Tools</dt><dd>Example: ArcGIS Pro, ArcGIS Online</dd></div><div><dt>Data &amp; credits</dt><dd>Add source names, dates, and attribution.</dd></div></dl>
-            </div>
-          </details>
+      <div>
+        <h1 id="hero-title">GIS maps, and the workflows that keep them running.</h1>
+        <p class="lead">I publish interactive web maps on ArcGIS Online and automate the processes around them with Power Automate on Microsoft 365. Everything here is live, so you can open it and try it.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#maps">See the web maps</a>
+          <a class="btn" href="#automation">See the flows</a>
         </div>
-      </article>
+        <ul class="hero-facts"><li>Aviation GIS</li><li>Utilities</li><li>Indoor mapping</li></ul>
+      </div>
 
-      <div class="project-grid">
-        <article class="project" id="project-dashboard">
-          <div class="project-preview"><img src="assets/utilities.svg" width="900" height="520" alt="Conceptual utility plan with separately labeled water, power, and communications routes connecting facility buildings."><span class="preview-label">UT.02 / UTILITY MAPPING</span></div>
-          <div class="project-body">
-            <div class="project-meta"><span>ArcGIS Dashboards</span><span>Sample project</span></div>
-            <h3>Infrastructure beneath the surface</h3>
-            <p>A place to highlight utility assets, inspection information, and facility networks in a map and dashboard.</p>
-            <ul class="tags" aria-label="Example methods"><li>Utility assets</li><li>Dashboards</li><li>Inspections</li></ul>
-            <details class="project-details">
-              <summary>Explore project <span class="disclosure-icon" aria-hidden="true">+</span></summary>
-              <div class="project-expanded">
-                <h4>Where are the assets, and how do they connect?</h4><p>Describe the utility systems you mapped, how you structured asset and inspection data, and the questions your dashboard helps answer. Explain your role, data quality checks, and project limitations.</p>
-                <div class="embed-placeholder"><span class="embed-symbol" aria-hidden="true">▥</span><strong>Your dashboard goes here</strong><p>Add your public ArcGIS Dashboard using the snippet in this section’s HTML.</p></div>
-                <!-- EMBED 2: Delete the placeholder above, replace both URLs, and uncomment.
-                <iframe class="arcgis-embed" src="https://www.arcgis.com/apps/dashboards/YOUR_DASHBOARD_ID" title="Utility asset dashboard" loading="lazy" allowfullscreen></iframe>
-                <a class="text-link" href="https://www.arcgis.com/apps/dashboards/YOUR_DASHBOARD_ID" target="_blank" rel="noopener noreferrer">Open full-screen dashboard ↗<span class="sr-only"> (opens in a new tab)</span></a>
-                -->
-              </div>
-            </details>
+      <!-- FEATURED MAP: put your best public web map here. Same steps as the cards below. -->
+      <div class="frame">
+        <div class="frame-bar"><i></i><i></i><i></i><span>Live map · ArcGIS Online</span></div>
+        <div class="placeholder"><strong>Your best map goes here</strong><small>Replace this block with the iframe shown in the comment below</small></div>
+        <!-- <iframe src="PASTE_EMBED_URL_HERE" title="Describe the map" loading="lazy" allowfullscreen></iframe> -->
+      </div>
+    </section>
+
+    <section class="band" id="maps" aria-labelledby="maps-title"><div class="wrap section">
+      <div class="section-head">
+        <h2 id="maps-title">Web maps on ArcGIS Online</h2>
+        <p>Each map is published and shared publicly. Pan, zoom, and click features right on this page, or open the full app.</p>
+      </div>
+      <!-- HOW TO ADD A MAP: In ArcGIS Online, share the app or map with Everyone (public), open it, choose Share > Embed, and copy the iframe src URL.
+           Delete the placeholder div, uncomment the iframe, and paste the URL in both places (iframe and "Open full screen"). -->
+      <div class="map-grid">
+        <article class="map-card featured">
+          <div class="frame">
+            <div class="frame-bar"><i></i><i></i><i></i><span>Airfield asset map</span></div>
+            <div class="placeholder"><strong>Interactive map</strong><small>Embed goes here</small></div>
+            <!-- <iframe src="PASTE_EMBED_URL_HERE" title="Airfield asset map" loading="lazy" allowfullscreen></iframe> -->
+          </div>
+          <div class="card-body">
+            <span class="kind">Instant Apps · Aviation GIS</span>
+            <h3>Airfield assets in one view</h3>
+            <p>[One or two sentences: what the map shows, who uses it, and the question it answers.]</p>
+            <ul class="tags"><li>Runways &amp; taxiways</li><li>Pavement</li><li>Web mapping</li></ul>
+            <p class="small"><strong>My role:</strong> [what you built or managed] · <strong>Data:</strong> [sources and credits]</p>
+            <a class="text-link" href="PASTE_PUBLIC_APP_URL_HERE" target="_blank" rel="noopener noreferrer">Open full screen<span class="sr-only"> (opens in a new tab)</span> ↗</a>
           </div>
         </article>
-        <article class="project" id="project-indoors">
-          <div class="project-preview"><img src="assets/floorplan.svg" width="900" height="520" alt="Illustrative indoor floorplan with labeled rooms, an accessible corridor route, stairs, and an elevator."><span class="preview-label">IN.03 / INDOOR MAPPING</span></div>
-          <div class="project-body">
-            <div class="project-meta"><span>ArcGIS Indoors · Experience Builder</span><span>Sample project</span></div>
+
+        <article class="map-card">
+          <div class="frame">
+            <div class="frame-bar"><i></i><i></i><i></i><span>Utility dashboard</span></div>
+            <div class="placeholder"><strong>Interactive dashboard</strong><small>Embed goes here</small></div>
+            <!-- <iframe src="PASTE_EMBED_URL_HERE" title="Utility dashboard" loading="lazy" allowfullscreen></iframe> -->
+          </div>
+          <div class="card-body">
+            <span class="kind">ArcGIS Dashboards · Utilities</span>
+            <h3>Utility network and inspections</h3>
+            <p>[What the dashboard tracks and the decision it supports.]</p>
+            <ul class="tags"><li>Utility assets</li><li>Inspections</li></ul>
+            <a class="text-link" href="PASTE_PUBLIC_APP_URL_HERE" target="_blank" rel="noopener noreferrer">Open full screen<span class="sr-only"> (opens in a new tab)</span> ↗</a>
+          </div>
+        </article>
+
+        <article class="map-card">
+          <div class="frame">
+            <div class="frame-bar"><i></i><i></i><i></i><span>Indoor map</span></div>
+            <div class="placeholder"><strong>Interactive indoor map</strong><small>Embed goes here</small></div>
+            <!-- <iframe src="PASTE_EMBED_URL_HERE" title="Indoor facility map" loading="lazy" allowfullscreen></iframe> -->
+          </div>
+          <div class="card-body">
+            <span class="kind">ArcGIS Indoors · Experience Builder</span>
             <h3>A building, floor by floor</h3>
-            <p>A place for floor-aware maps that connect rooms, indoor assets, and the routes people take through a building.</p>
-            <ul class="tags" aria-label="Example methods"><li>Floorplans</li><li>Indoor assets</li><li>Wayfinding</li></ul>
-            <details class="project-details">
-              <summary>Explore project <span class="disclosure-icon" aria-hidden="true">+</span></summary>
-              <div class="project-expanded">
-                <h4>From building drawings to usable indoor maps.</h4><p>Explain how you prepared floorplans, organized levels and spaces, and connected indoor assets to their locations. Add your role, source drawing credits, and what the finished map helps people do.</p>
-                <div class="embed-placeholder"><span class="embed-symbol" aria-hidden="true">≋</span><strong>Your indoor mapping app goes here</strong><p>Add your published ArcGIS app using the snippet in this section’s HTML.</p></div>
-                <!-- EMBED 3: Delete the placeholder above, replace both URLs, and uncomment.
-                <iframe class="arcgis-embed" src="PASTE_PUBLIC_INDOOR_APP_URL_HERE" title="Interactive indoor facility map" loading="lazy" allowfullscreen></iframe>
-                <a class="text-link" href="PASTE_PUBLIC_INDOOR_APP_URL_HERE" target="_blank" rel="noopener noreferrer">Open full-screen indoor map ↗<span class="sr-only"> (opens in a new tab)</span></a>
-                -->
-              </div>
-            </details>
+            <p>[Floor-aware map: spaces, assets, and how people find their way.]</p>
+            <ul class="tags"><li>Floorplans</li><li>Indoor assets</li></ul>
+            <a class="text-link" href="PASTE_PUBLIC_APP_URL_HERE" target="_blank" rel="noopener noreferrer">Open full screen<span class="sr-only"> (opens in a new tab)</span> ↗</a>
           </div>
         </article>
       </div>
-    </section>
+    </div></section>
 
-    <section class="systems-section" id="systems" aria-labelledby="systems-title"><div class="wrap section">
-      <div class="section-heading"><div><p class="eyebrow">02 / Code &amp; infrastructure</p><h2 id="systems-title">Behind the map.<br>Beyond the interface.</h2></div><p>Programming, repeatable workflows,<br>and the systems that support them.</p></div>
-      <p class="template-note"><strong>Space for the technical work.</strong> These are example project slots for your code, automation, and hosting experience.</p>
-      <div class="workflow" aria-label="Illustrative workflow: source data to scripts and tools, scheduled workflows, and hosted services">
-        <span class="workflow-label">EXAMPLE WORKFLOW</span>
-        <ol><li><span>01 / INPUT</span>Source data</li><li><span>02 / PROCESS</span>Scripts &amp; tools</li><li><span>03 / AUTOMATE</span>Scheduled workflows</li><li><span>04 / DELIVER</span>Hosted services</li></ol>
+    <section class="dark" id="automation" aria-labelledby="auto-title"><div class="wrap section">
+      <div class="section-head">
+        <h2 id="auto-title">Power Automate flows on Microsoft 365</h2>
+        <p>Cloud flows that connect Outlook, Teams, SharePoint, and Forms to my GIS data, so routine requests and updates run without manual steps.</p>
       </div>
-      <div class="systems-grid">
-        <!-- TECH PROJECTS: Replace the example brief and add repository/documentation links in each card. -->
-        <article class="system-card">
-          <div class="system-card-top"><span class="eyebrow">DEV.01 / Programming</span><span class="system-symbol" aria-hidden="true">&lt;/&gt;</span></div>
-          <h3>Tools built for the task.</h3><p>A place for Python scripts, GIS tools, small applications, or integrations that solve a specific problem.</p>
-          <ul class="tags" aria-label="Example technologies"><li>Python / ArcPy</li><li>SQL</li><li>APIs</li></ul>
-          <details class="project-details"><summary>Project brief <span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="project-expanded"><h4>Show the problem and the code.</h4><p>Add the problem you solved, your implementation, inputs and outputs, and an example of the tool in use. Link to a repository or a documented code sample you can share.</p>
-          <!-- PERSONALIZE: Replace the URL and uncomment when you have a public repository.
-          <a class="text-link" href="PASTE_REPOSITORY_URL_HERE" target="_blank" rel="noopener noreferrer">View repository ↗<span class="sr-only"> (opens in a new tab)</span></a>
-          -->
-          </div></details>
+      <!-- Each flow reads top to bottom: trigger, then actions. Edit the steps to match your real flow.
+           Add a screenshot: put the image in assets/ and replace the .shot div with <img src="assets/flow1.png" alt="Describe the flow"> -->
+      <div class="flow-grid">
+        <article class="flow">
+          <h3>[Flow name, e.g. New field report to SharePoint]</h3>
+          <p class="small">[One sentence on the problem it solves.]</p>
+          <ol class="steps">
+            <li class="trigger"><b>Trigger</b>When a response is submitted in Microsoft Forms</li>
+            <li><b>Action</b>Get response details</li>
+            <li><b>Action</b>Create item in SharePoint list</li>
+            <li><b>Action</b>Post a message in Teams</li>
+          </ol>
+          <p class="result"><strong>Result:</strong> [Time saved, errors avoided, or who uses it.]</p>
+          <ul class="tags"><li>Forms</li><li>SharePoint</li><li>Teams</li></ul>
+          <div class="shot">Flow screenshot goes here</div>
         </article>
-        <article class="system-card">
-          <div class="system-card-top"><span class="eyebrow">AUTO.02 / Automation</span><span class="system-symbol" aria-hidden="true">↻</span></div>
-          <h3>Less repetition. More flow.</h3><p>A place for data refreshes, batch processing, publishing routines, and workflows that turn manual steps into repeatable runs.</p>
-          <ul class="tags" aria-label="Example technologies"><li>ArcGIS API for Python</li><li>Scheduled tasks</li></ul>
-          <details class="project-details"><summary>Project brief <span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="project-expanded"><h4>Make the workflow visible.</h4><p>Explain the trigger, processing steps, validation, logging, and recovery behavior. Include a workflow diagram or script and describe a result you can demonstrate.</p>
-          <!-- PERSONALIZE: Replace the URL and uncomment when documentation is ready.
-          <a class="text-link" href="PASTE_WORKFLOW_DOCUMENTATION_URL_HERE" target="_blank" rel="noopener noreferrer">View workflow ↗<span class="sr-only"> (opens in a new tab)</span></a>
-          -->
-          </div></details>
+        <article class="flow">
+          <h3>[Flow name, e.g. Approval for map publishing]</h3>
+          <p class="small">[One sentence on the problem it solves.]</p>
+          <ol class="steps">
+            <li class="trigger"><b>Trigger</b>When an item is created or modified in SharePoint</li>
+            <li><b>Condition</b>Status equals “Ready for review”</li>
+            <li><b>Action</b>Start and wait for an approval</li>
+            <li><b>Action</b>Send an Outlook email with the outcome</li>
+          </ol>
+          <p class="result"><strong>Result:</strong> [Outcome you can substantiate.]</p>
+          <ul class="tags"><li>Approvals</li><li>SharePoint</li><li>Outlook</li></ul>
+          <div class="shot">Flow screenshot goes here</div>
         </article>
-        <article class="system-card">
-          <div class="system-card-top"><span class="eyebrow">OPS.03 / Server hosting</span><svg class="system-symbol" viewBox="0 0 30 30" fill="none" aria-hidden="true"><rect x="3" y="4" width="24" height="9" rx="1"/><rect x="3" y="17" width="24" height="9" rx="1"/><path d="M8 8.5h2m-2 13h2M17 8.5h6m-6 13h6"/></svg></div>
-          <h3>A home for the services.</h3><p>A place for server builds, hosted applications, container deployments, and the infrastructure behind a working service.</p>
-          <ul class="tags" aria-label="Example technologies"><li>Linux</li><li>Docker</li><li>Web hosting</li></ul>
-          <details class="project-details"><summary>Project brief <span class="disclosure-icon" aria-hidden="true">+</span></summary><div class="project-expanded"><h4>Explain how the system fits together.</h4><p>Describe your hosting environment, deployment process, networking, monitoring, and backup approach. Add a sanitized architecture diagram and your contribution.</p>
-          <!-- PERSONALIZE: Replace the URL and uncomment when documentation is ready.
-          <a class="text-link" href="PASTE_ARCHITECTURE_DOCUMENTATION_URL_HERE" target="_blank" rel="noopener noreferrer">View architecture ↗<span class="sr-only"> (opens in a new tab)</span></a>
-          -->
-          </div></details>
+        <article class="flow">
+          <h3>[Flow name, e.g. Scheduled data refresh alert]</h3>
+          <p class="small">[One sentence on the problem it solves.]</p>
+          <ol class="steps">
+            <li class="trigger"><b>Trigger</b>Recurrence, every weekday at 6:00 AM</li>
+            <li><b>Action</b>HTTP request to an ArcGIS REST endpoint</li>
+            <li><b>Condition</b>Feature count changed</li>
+            <li><b>Action</b>Notify owners in Teams</li>
+          </ol>
+          <p class="result"><strong>Result:</strong> [Outcome you can substantiate.]</p>
+          <ul class="tags"><li>Scheduled</li><li>ArcGIS REST</li><li>Teams</li></ul>
+          <div class="shot">Flow screenshot goes here</div>
         </article>
       </div>
     </div></section>
 
-    <section class="about-section" id="about" aria-labelledby="about-title"><div class="wrap about-layout section">
-      <div><p class="eyebrow">03 / Behind the work</p><h2 id="about-title">Spatial thinking.<br>Technical curiosity.</h2><a class="text-link" href="resume.html">View résumé <span aria-hidden="true">↗</span></a></div>
-      <div class="about-copy">
-        <!-- PERSONALIZE: Replace the following paragraph with your own biography. -->
-        <p class="intro">Hi, I’m <strong>Your Name.</strong> This is where I bring together GIS, aviation, facility mapping, and technology projects.</p>
-        <p class="placeholder-copy">[Add your background, your interests in aviation or facility systems, and the mapping, programming, or infrastructure work you want to do.]</p>
-        <div class="toolkit"><h3>Example toolkit</h3><p class="small-copy">Keep the tools and methods that reflect your experience.</p><ul class="tags"><li>ArcGIS Pro</li><li>ArcGIS Online</li><li>ArcGIS Dashboards</li><li>Experience Builder</li><li>ArcGIS Indoors</li><li>Python / ArcPy</li><li>ArcGIS API for Python</li><li>SQL</li><li>Linux</li><li>Docker</li></ul></div>
+    <section class="wrap section" id="about" aria-labelledby="about-title">
+      <div class="about">
+        <div>
+          <h2 id="about-title">About me</h2>
+          <p style="margin-top:16px">I’m <strong>Matt Pistritto</strong>, a GIS and technology professional working across aviation, utilities, and facility mapping.</p>
+          <p>[Add two or three sentences on your background and the role you want.]</p>
+          <a class="text-link" href="resume.html">Read my résumé ↗</a>
+        </div>
+        <div class="skill-groups">
+          <div><h3>Mapping</h3><ul class="tags"><li>ArcGIS Pro</li><li>ArcGIS Online</li><li>Dashboards</li><li>Experience Builder</li><li>ArcGIS Indoors</li></ul></div>
+          <div><h3>Automation</h3><ul class="tags"><li>Power Automate</li><li>SharePoint</li><li>Teams</li><li>Python / ArcPy</li><li>ArcGIS API for Python</li></ul></div>
+          <div><h3>Data &amp; systems</h3><ul class="tags"><li>SQL</li><li>Linux</li><li>Docker</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark" id="contact" aria-labelledby="contact-title"><div class="wrap section contact">
+      <div><h2 id="contact-title">Let’s talk</h2><p class="small" style="margin:10px 0 0">Open to conversations about GIS and automation roles.</p></div>
+      <div>
+        <a class="contact-email" href="mailto:your.name@example.com">your.name@example.com</a>
+        <p class="small" style="margin-top:12px"><a href="PASTE_LINKEDIN_URL">LinkedIn</a> · <a href="PASTE_GITHUB_URL">GitHub</a> · <a href="resume.html">Résumé</a></p>
       </div>
     </div></section>
-
-    <section class="contact wrap section" id="contact" aria-labelledby="contact-title">
-      <p class="eyebrow">04 / Get in touch</p><div class="contact-layout"><div><h2 id="contact-title">Let’s build<br>connections.</h2><p>Interested in my work? Let’s start a conversation.</p></div>
-      <div class="contact-links">
-        <!-- PERSONALIZE: Replace the example email. Add your LinkedIn, GitHub, or AGOL profile here. -->
-        <a class="contact-email" href="mailto:your.name@example.com">your.name@example.com <span aria-hidden="true">↗</span></a>
-        <p class="small-copy">Placeholder contact — add your email before publishing.</p>
-        <a class="text-link" href="resume.html">View résumé <span aria-hidden="true">↗</span></a>
-      </div></div>
-    </section>
   </main>
-  <footer class="wrap site-footer"><p>© Your Name · GIS Portfolio</p><a href="#main">Back to top <span aria-hidden="true">↑</span></a><p>Aviation. Facilities. Systems.</p></footer>
+  <footer class="wrap site-footer"><p>© Matt Pistritto</p><a href="#main">Back to top ↑</a></footer>
 </body>
 </html>
